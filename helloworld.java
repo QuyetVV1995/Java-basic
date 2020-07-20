@@ -3,5 +3,6 @@ public class helloworld{
 	// In hello world tren terminal window
 	System.out.println("Hello world");
 	System.out.println("Haaaaaaa");
+	System.out.println("123");
 	}
 }
