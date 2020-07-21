@@ -13,3 +13,8 @@ else
 while(<bieu thuc dieu kien>){
 	<khoi lenh lap lai>
 }
+
+* cu phap for
+for (<khoi tao bien chay>; <bieu thuc dieu kien>; <thay doi bien chay>){
+	<khoi lenh lap lai>
+}
