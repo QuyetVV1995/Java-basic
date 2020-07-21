@@ -21,3 +21,8 @@ for (<khoi tao bien chay>; <bieu thuc dieu kien>; <thay doi bien chay>){
 
 * cu phap khai bao mang
 <kieu du lieu>[] <ten mang> = new <kieu du lieu> [kich co mang];
+
+* cu phap foreach
+for(<kieu du lieu> <ten bien chay>:<ten mang>){
+	<khoi lenh lap lai>
+}
