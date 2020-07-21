@@ -8,3 +8,8 @@ if(<bieu thuc dieu kien>)
 <cau lech thuc hien dieu kien dung>
 else
 <cau lenh thuc hien dieu kien sai>
+
+* cu phap While
+while(<bieu thuc dieu kien>){
+	<khoi lenh lap lai>
+}
