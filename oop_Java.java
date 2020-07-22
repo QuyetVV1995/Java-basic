@@ -1,3 +1,4 @@
+import mypack.Person;
 public class oop_Java{
 	public static void main(String[] args) {
 		Person a = new Person("Quyet",25,164);

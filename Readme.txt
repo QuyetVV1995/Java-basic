@@ -47,3 +47,5 @@ for(<kieu du lieu> <ten bien chay>:<ten mang>){
 -<tên phương thức>: Tên của phương thức
 -[tham số]: là những tham số ta muốn truyền vào phương thức để thực hiện
 <chương trình>: những dòng code thực hiện khi gọi tên phương thức
+
+*4 loại phạm vi truy cập: Private, (Default), Protected, Public
