@@ -1,13 +1,23 @@
 package mypack;
 public class Person{
 	public String name;
-	public int age;
+	private int age;
 	public int heigth;
 
 	public Person(String name, int age, int heigth){
 		this.name = name;
 		this.age = age;
 		this.heigth = heigth;
+	}
+
+	public void setAge(int age){
+		if(age>= 0 && age<=100){
+			this.age = age;
+		}
+	}
+
+	public int getAge(){
+		return this.age;
 	}
 
 	public void getInfo(){

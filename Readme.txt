@@ -54,5 +54,15 @@ for(<kieu du lieu> <ten bien chay>:<ten mang>){
 
 * cú pháp khai báo và sử dụng kế thừa
 class <ten lop con> extends <ten lop cha>{
-	
+}
+
+*cú pháp Setter và Getter
+Setter
+public void set<ten thuoc tinh>(<tham so gia tri moi>){
+	this.<ten thuoc tinh> = <tham so gia tri moi>;
+}
+
+Getter
+<kieu du lieu thuoc tinh> get<ten thuoc tinh>(){
+	return this.<ten thuoc tinh>;
 }
