@@ -28,3 +28,22 @@ for(<kieu du lieu> <ten bien chay>:<ten mang>){
 }
 
 * Object:  thuoc tinh và phương thức
+
+* cú pháp khai báo Class
+<pham vi truy cap> class <ten lop>{
+	<pham vi truy cap> <cac thanh phan cua lop>;
+}
+- <tên lớp>: là tên class do người dùng tạo ra
+- <phạm vi truy cập>: gồm có những từ khóa public, protected, private...
+- <các thành phần của lớp>: Là biến hoặc phương thức trong lớp
+
+*cú pháp khai báo Phương thức
+<phạm vi truy cập> <từ khóa> <kiểu dữ liệu trả về> <tên phương thức>([tham số]){
+	<chương trình>
+}
+-<phạm vi truy cập>: phạm vi truy cập phương thức
+-<từ khóa>: gồm các từ khóa final, static...
+-<kiểu dữ liệu trả về>: int, long, double.... Để trả dữ liệu, dùng return
+-<tên phương thức>: Tên của phương thức
+-[tham số]: là những tham số ta muốn truyền vào phương thức để thực hiện
+<chương trình>: những dòng code thực hiện khi gọi tên phương thức
