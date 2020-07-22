@@ -99,3 +99,11 @@ thức abstrach của interface đó.
 
  - void: phương thức main bắt buộc là void
  - String[], args: là tham số mà người dùng truyền vào sau tên lớp
+
+ *TryCatch
+ cú pháp
+ try{
+ 	// những khối lệnh có thể phát sinh lỗi
+ }catch{Exception e}{// tham số e là tên lỗi muốn xử lý
+ 	// chương trình thực hiện khi gặp lỗi trên
+ }
