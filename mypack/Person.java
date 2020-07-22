@@ -10,6 +10,10 @@ public class Person{
 		this.heigth = heigth;
 	}
 
+	public Person getInstance(){
+		return this;
+	}
+
 	public void eat (String foodname){
 		System.out.println(name + "is eating" + foodname);
 	}
