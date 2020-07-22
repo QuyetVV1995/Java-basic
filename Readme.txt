@@ -49,3 +49,5 @@ for(<kieu du lieu> <ten bien chay>:<ten mang>){
 <chương trình>: những dòng code thực hiện khi gọi tên phương thức
 
 *4 loại phạm vi truy cập: Private, (Default), Protected, Public
+
+* Khối static: Được sử dụng cho mục đích khởi tạo giá trị các biến static. Khối sẽ được thực hiện khi lớp chứa nó được load vào trong bộ nhớ. Trong một lớp có thể có nhiều khối, các khối này chạy cùng nhau và chạy trước cả chương trình main của lớp đó.
