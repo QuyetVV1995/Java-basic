@@ -26,3 +26,5 @@ for (<khoi tao bien chay>; <bieu thuc dieu kien>; <thay doi bien chay>){
 for(<kieu du lieu> <ten bien chay>:<ten mang>){
 	<khoi lenh lap lai>
 }
+
+* Object:  thuoc tinh và phương thức
