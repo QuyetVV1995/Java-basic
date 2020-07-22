@@ -86,3 +86,16 @@ Sử dụng từ khóa abstract trước từ khóa class
 
 Phương thức trừu tượng là chỉ định nghĩa mà không có chương trình bên trong,
 lớp con kế thừa phải bắt buộc override nó để sử dụng lại.
+
+*Interface là một kiểu dữ liệu tham chiếu trong Java. Nó là tập hợp các phương
+thức abstract. Khi một lớp kế thừa Interface, thì nó sẽ kế thừa những phương 
+thức abstrach của interface đó.
+
+*ý nghĩa từng cú pháp của phương thức Main
+- public: quyền truy cập dạng public để JRE ở bên ngoài có thể truy cập
+ được phương thức để thực thi
+ - static: khi JRE bắt đầu, chưa có đối tượng nào được khởi tạo. vì vậy nên để
+ phương thức dạng static để JVM có thể load class vào bộ nhớ và có thể gọi phương thức
+
+ - void: phương thức main bắt buộc là void
+ - String[], args: là tham số mà người dùng truyền vào sau tên lớp
