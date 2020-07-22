@@ -107,3 +107,9 @@ thức abstrach của interface đó.
  }catch{Exception e}{// tham số e là tên lỗi muốn xử lý
  	// chương trình thực hiện khi gặp lỗi trên
  }
+
+ 4 tính chất trong hướng đối tượng:
+ - tính đóng gói	Encapsulation : Tính đóng gói nhằm bảo vệ đối tượng không bị truy cập từ code bên ngoài vào để thay đổi giá trị các thuộc tính. đảm bảo tính bảo mât, toàn vẹn của đối tượng trong Java.
+ - tính trừu tượng	Abstraction: tính trừu tượng là một tiến trình chỉ nói ra tính năng của người dùng, các khái niệm được định nghĩa trong quá trình phát triển, bỏ qua những chi tiết triển khai bên trong. Tính trừu tượng cho phép người lập trình tập trung cốt lõi cần thiết của đối tượng thay vì quan tâm sự phức tạp bên trong hoặc cách nó hoạt động
+ - tính thừa kế		Inheritance: Tính kế thừa cho phép cải tiến chương trình bằng cách kế thừa lại lớp cũ và phát triển những tính năng mới. Lớp con sẽ kế thừa tất cả những thành phần của lớp cha, nhờ sự chia sẻ này mới có thể mở rộng những đặc tính có sẵn mà không cần phải định nghĩa lại
+ - tính đa hình		Polymorphism: Tính đa hình có thể nói luôn tồn tại song song với tính kế thừa. Khi có nhiều lớp con kế thừa lớp cha nhưng có những tính chất khác nhau cũng gọi là đa hình, hoặc những tác vụ trong cùng một đối tượng được thể hiện nhiều cách khác nhau cũng gọi là đa hình. Tính đa hình là kết quả tất yếu khi ta phát triển khả năng kế thừa và nâng cấp chương trình.
