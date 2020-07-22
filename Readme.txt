@@ -66,3 +66,23 @@ Getter
 <kieu du lieu thuoc tinh> get<ten thuoc tinh>(){
 	return this.<ten thuoc tinh>;
 }
+
+* su dung final de chong overriding
+- overiding la: thằng con ghi đè lại hàm của thằng cha
+- overloading: là 1 hàm được viết thành nhiều hàm khác nhau nhưng
+khác về parameter
+
+-Tính trừu tượng trong lập trình hướng đối tượng là chỉ nêu ra 
+vấn đề mà không hiển thị cụ thể, chỉ hiển thị tính năng thiết yếu đối
+với đối tượng người dùng mà không nói quy trình hoạt động
+
+Tính trừu tượng trong Java
+Lớp trừu tượng là lớp được khai báo mà không thể tạo ra đối
+tượng từ lớp đó. Ta sẽ tạo những lớp con kế thừa lớp
+trừu tượng.
+Mục đích lớp trừu tượng là tạo ra lớp chung cho những lớp có liên quan với
+nhau kế thừa.
+Sử dụng từ khóa abstract trước từ khóa class
+
+Phương thức trừu tượng là chỉ định nghĩa mà không có chương trình bên trong,
+lớp con kế thừa phải bắt buộc override nó để sử dụng lại.

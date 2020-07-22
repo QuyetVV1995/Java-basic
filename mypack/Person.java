@@ -20,6 +20,8 @@ public class Person{
 		return this.age;
 	}
 
+	public abstract Object clone();
+
 	public void getInfo(){
 		System.out.println("Name:" + this.name);
 		System.out.println("Age:" + this.age);

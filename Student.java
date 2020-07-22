@@ -10,4 +10,9 @@ public class Student extends Person{
 		super.getInfo();
 		System.out.println("UniversityName: " + this.universityName);
 	}
+	@Override
+	public Object clone(){
+		Student other =  new Student(this.name, this.getAge(), this.heigth, this.universityName);
+		return other;
+	}
 }
