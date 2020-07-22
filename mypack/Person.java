@@ -10,15 +10,9 @@ public class Person{
 		this.heigth = heigth;
 	}
 
-	public Person getInstance(){
-		return this;
-	}
-
-	public void eat (String foodname){
-		System.out.println(name + "is eating" + foodname);
-	}
-
-	public int getAge(){
-		return age;
+	public void getInfo(){
+		System.out.println("Name:" + this.name);
+		System.out.println("Age:" + this.age);
+		System.out.println("Heigth:" + this.heigth);
 	}
 }

@@ -1,21 +1,13 @@
-public class Student{
-	public String name;
-	public int age;
-	public float heigth;
-
-	public static String universityName = "BKHN";
-	public static int total = 0;
-
-	public Student(String name, int age, float heigth){
-		this.name = name;
-		this.age = age;
-		this.heigth = heigth;
-
-		total += 1;
+import mypack.Person;
+public class Student extends Person{
+	public String universityName;
+	public Student (String name, int age, int heigth, String universityName){
+		super(name, age, heigth);
+		this.universityName = universityName;
 	}
-
-	// phương thức tĩnh
-	public static void getInfoUniversity(){
-		System.out.println("Bach khoa ha noi");
+	
+	public void getInfo(){
+		super.getInfo();
+		System.out.println("UniversityName: " + this.universityName);
 	}
 }
